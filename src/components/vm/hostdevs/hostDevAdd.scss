@@ -1,6 +1,4 @@
 @import "../../../lib/_global-variables.scss";
-@import "@patternfly/patternfly/components/Table/table.scss";
-@import "@patternfly/patternfly/components/Table/table-grid.scss";
 
 .pf-c-table.vm-device-table {
   /* Set overflow with a limiter on the list, so it scrolls instead of the dialog */
