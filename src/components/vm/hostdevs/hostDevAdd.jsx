@@ -126,7 +126,7 @@ const DevRow = ({ idPrefix, type, selectableDevices, setSelectableDevices }) => 
                    canSelectAll={false}
                    className="vm-device-table"
                    aria-label={_("Table of selectable host devices")}
-                   cells={['', '', '', '']}
+                   cells={[_("Product"), _("Vendor"), _("Location")]}
                    rows={selectableDevices.map((dev, idx) => {
                        return {
                            selected: dev.selected, disableSelection: dev.nodeDev.hasChildren, cells: [
